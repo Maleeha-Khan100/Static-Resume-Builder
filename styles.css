@@ -1,0 +1,61 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration:none;
+    border:none;
+    outline:none;
+    scroll-behavior:smooth;
+    font-family: -apple-system,sans-serif;
+ }
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-image: url(https://pics.craiyon.com/2023-10-21/15551fba74404ffc9503185c39e5019b.webp);
+    background-repeat:no-repeat;
+     background-size:cover;
+}
+
+
+.coverwholediv {
+    width: 80%;
+    max-width: 600px;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.profile-picture {
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    
+}
+
+h1, h2 {
+    margin: 10px 0;
+    
+}
+
+button {
+    padding: 10px;
+    background-color: #2575fc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #741ecf;
+}
+
+
